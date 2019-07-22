@@ -55,4 +55,4 @@ def show_booked_handler(msg):
     front.send_all_booked(msg, booked)
 
 
-bot.polling()
+# bot.polling()
