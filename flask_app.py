@@ -1,7 +1,7 @@
 from flask import Flask, request
 from telebot.types import Update
 
-from utils.bot_util import bot
+from bot_manager import bot
 
 
 app = Flask(__name__)
